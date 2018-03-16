@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <view class= "{{item.isTouchMove ? 'item-active' : 'item'}}" bindtouchstart='touchstart' bindtouchmove='touchmove' wx:for="{{list}}" wx:key='' data-index="{{index}}">
+    <view class='txt'>{{item.txt}}</view>
+    <view class='del' bindtap="del" data-index="{{index}}">删除</view>
+  </view>
+</view>
