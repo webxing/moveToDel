@@ -1,6 +1,7 @@
 # moveToDel
 滑动删除列表项
-#效果图
+
+# 效果图
 ![滑动效果+删除](https://upload-images.jianshu.io/upload_images/10518780-9b0aeb5ec145ee18.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # 思路
